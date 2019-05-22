@@ -47,34 +47,32 @@ class FooterNav extends Component {
           </div>
         </div>
 
-        <div className="row py-3">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-7 my-auto">&copy; 2019 All right reserved - nodeflux.io</div>
-              <div className="col-sm-5 my-auto text-right">
-                <ul className="list-inline mb-1">
-                  <li className="list-inline-item px-2">
-                    <a href="#!">
-                      <img src={process.env.PUBLIC_URL + '/images/instagram-logo.svg'} className="img-fluid height-20" alt="instagram"/>
-                    </a>
-                  </li>
-                  <li className="list-inline-item px-2">
-                    <a href="#!">
-                      <img src={process.env.PUBLIC_URL + '/images/youtube.svg'} className="img-fluid height-20" alt="youtube"/>
-                    </a>
-                  </li>
-                  <li className="list-inline-item px-2">
-                    <a href="#!">
-                      <img src={process.env.PUBLIC_URL + '/images/facebook.svg'} className="img-fluid height-20" alt="facebook"/>
-                    </a>
-                  </li>
-                  <li className="list-inline-item px-2">
-                    <a href="#!">
-                      <img src={process.env.PUBLIC_URL + '/images/linkedin.svg'} className="img-fluid height-20" alt="linkedin"/>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+        <div className="container py-3">
+          <div className="row">
+            <div className="col-sm-7 my-auto">&copy; 2019 All right reserved - nodeflux.io</div>
+            <div className="col-sm-5 my-auto text-right">
+              <ul className="list-inline mb-1">
+                <li className="list-inline-item px-2">
+                  <a href="#!">
+                    <img src={process.env.PUBLIC_URL + '/images/instagram-logo.svg'} className="img-fluid height-20" alt="instagram"/>
+                  </a>
+                </li>
+                <li className="list-inline-item px-2">
+                  <a href="#!">
+                    <img src={process.env.PUBLIC_URL + '/images/youtube.svg'} className="img-fluid height-20" alt="youtube"/>
+                  </a>
+                </li>
+                <li className="list-inline-item px-2">
+                  <a href="#!">
+                    <img src={process.env.PUBLIC_URL + '/images/facebook.svg'} className="img-fluid height-20" alt="facebook"/>
+                  </a>
+                </li>
+                <li className="list-inline-item px-2">
+                  <a href="#!">
+                    <img src={process.env.PUBLIC_URL + '/images/linkedin.svg'} className="img-fluid height-20" alt="linkedin"/>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

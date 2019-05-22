@@ -2,82 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2072aed7-3645-40b2-a4d2-bc1922f8b440" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/fonts/arciform-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/arciform-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/arciform-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/arciform-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/arciform-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-dot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg-wave-casestudy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bin-2-x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bitmap-copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/brain-wave.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/cropped-640-px-binus-university-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/digital-service.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/electronic-city-copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/fire.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gojek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/illustration-face.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/illustration-fr.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/iva.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/jasa-marga-logo-svg-copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/jkt-smart-city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/map.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nvidia-logo-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nvidia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pattern-wave-pattern-wave-copy-mask (1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pic-gojek.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/pins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/polri-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/qlue-logo-update-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/rectangle-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/spot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/telkom-indonesia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/tj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/wave-copy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/youtube.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/HeadingPage/HeadingPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/List/List.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/List/ListItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Slider/Slider.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Slider/SliderIndicator.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Slider/SliderItemLeft.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Slider/SliderItemRight.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Slider/SliderProgress.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/nav/FooterNav/FooterNav.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/nav/NavBar/NavBar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/layout/App.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/layout/HomePage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/banner/_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/bootstrap/_bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/bootstrap/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/bootstrap/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/contact/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/fonts/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/footer/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/heading/_heading.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/image/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/sizing/_sizing-function.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/scss/sizing/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dummy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/helper.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/nav/FooterNav/FooterNav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/nav/FooterNav/FooterNav.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +26,7 @@
         <counts>
           <entry key="js" value="18" />
           <entry key="json" value="2" />
-          <entry key="jsx" value="49" />
+          <entry key="jsx" value="50" />
           <entry key="png" value="2" />
           <entry key="scss" value="50" />
           <entry key="svg" value="6" />
@@ -111,7 +36,7 @@
         <counts>
           <entry key="Image" value="2" />
           <entry key="JSON" value="2" />
-          <entry key="JSX Harmony" value="49" />
+          <entry key="JSX Harmony" value="50" />
           <entry key="JavaScript" value="18" />
           <entry key="SCSS" value="50" />
           <entry key="SVG" value="6" />
@@ -125,13 +50,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="1636" />
-          <entry key="jsx" value="11026" />
+          <entry key="jsx" value="11029" />
           <entry key="scss" value="1137" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSX Harmony" value="11026" />
+          <entry key="JSX Harmony" value="11029" />
           <entry key="JavaScript" value="1636" />
           <entry key="SCSS" value="1137" />
         </counts>
@@ -140,14 +65,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/layout/HomePage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="-1593">
               <caret line="57" column="107" selection-start-line="57" selection-start-column="107" selection-end-line="57" selection-end-column="107" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/components/nav/FooterNav/FooterNav.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -236,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/assets/scss/bootstrap/_bootstrap.scss" />
         <option value="$PROJECT_DIR$/src/app/components/Slider/SliderProgress.jsx" />
         <option value="$PROJECT_DIR$/src/app/components/Slider/Slider.jsx" />
-        <option value="$PROJECT_DIR$/src/app/components/nav/FooterNav/FooterNav.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/dummy.js" />
         <option value="$PROJECT_DIR$/src/app/components/Slider/SliderIndicator.jsx" />
@@ -249,6 +182,7 @@
         <option value="$PROJECT_DIR$/src/app/components/Slider/SliderItemLeft.jsx" />
         <option value="$PROJECT_DIR$/src/utils/helper.jsx" />
         <option value="$PROJECT_DIR$/src/app/layout/HomePage.jsx" />
+        <option value="$PROJECT_DIR$/src/app/components/nav/FooterNav/FooterNav.jsx" />
       </list>
     </option>
   </component>
@@ -447,17 +381,18 @@
       <workItem from="1558405325288" duration="736000" />
       <workItem from="1558406265636" duration="8164000" />
       <workItem from="1558443865437" duration="15794000" />
-      <workItem from="1558488964670" duration="297000" />
+      <workItem from="1558488964670" duration="920000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69564000" />
+    <option name="totallyTimeSpent" value="70187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="835" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21959943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21959943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -465,7 +400,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3512786" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3512786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -602,6 +537,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -693,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/nav/FooterNav/FooterNav.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="100" selection-start-line="39" selection-start-column="100" selection-end-line="39" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/HeadingPage/SubHeading.jsx" />
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -759,7 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/layout/HomePage.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="-1593">
           <caret line="57" column="107" selection-start-line="57" selection-start-column="107" selection-end-line="57" selection-end-column="107" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -771,6 +702,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="69" selection-start-line="4" selection-start-column="69" selection-end-line="4" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/nav/FooterNav/FooterNav.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
         </state>
       </provider>
     </entry>
