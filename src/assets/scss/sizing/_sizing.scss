@@ -1,0 +1,13 @@
+@import "./sizing-function";
+
+.fontsize-12 {
+  font-size: convert-rem(12px);
+}
+
+.fontsize-16 {
+  font-size: convert-rem(16px);
+}
+
+.height-20 {
+  height: 20px;
+}

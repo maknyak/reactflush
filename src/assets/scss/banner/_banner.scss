@@ -1,0 +1,85 @@
+.banner {
+  background-color: #36215b;
+  position: relative;
+  background-image: linear-gradient(to bottom, #e4c5ff25, #9654e525);
+
+  &.banner-sm {
+    width: auto;
+    padding: 50px;
+
+    @include media-breakpoint-up(lg) {
+      height: 148px;
+      overflow: hidden;
+    }
+
+    @include media-breakpoint-up(xl) {
+      height: 175px;
+      overflow: hidden;
+    }
+  }
+
+  &.banner-lg {
+    width: auto;
+    
+    @include media-breakpoint-up(lg) {  
+      max-height: 304px;
+      overflow: hidden;
+    }
+
+    @include media-breakpoint-up(xl) {  
+      max-height: 358px;
+      overflow: hidden;
+    }
+  }
+
+  .banner-img {
+    width: 100%;
+    max-width: 125px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px;
+  background: #36215b;
+  background-image: linear-gradient(to bottom, #e4c5ff25, #9654e525);
+  
+  a {
+    width: 50%;
+    height: 120px;
+    display: block;
+    position: relative;
+
+
+    @include media-breakpoint-up(sm) {
+      width: 30%;
+    }
+
+    img {
+      width: 100%;
+      max-width: 120px;
+      padding: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 200px;
+      height: 200px;
+
+      img {
+        max-width: 130px;
+      }
+    }
+  }
+}
