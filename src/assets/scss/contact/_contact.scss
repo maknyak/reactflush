@@ -1,0 +1,36 @@
+#contact {
+  padding: 50px 0;
+}
+
+.contact-bg {
+  text-align: center;
+  position: relative;
+  padding: 25px;
+  
+  @include media-breakpoint-up(lg) {
+    padding: 50px;
+  }
+  
+  &::before {
+    content: '';
+    position: absolute;
+    background: url('/images/bg-dot.svg') no-repeat center center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .contact-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &::after {
+      content: '';
+      background: url('/images/bg-dot.svg') no-repeat center center;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import "../sizing/sizing-function";
+
+#footer {
+  padding-top: 50px;
+  position: relative;
+  color: #fff;
+  background: linear-gradient(to top, #090018, rgba(33, 12, 63, 0));
+  
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(280deg, #1b0347, #431a6d) ;
+    object-fit: contain;
+    position: absolute;
+    transform: rotate(180deg);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .footer-title {
+    font-weight: 600;
+    font-size: convert-rem(16px);
+    margin-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    
+    > li {
+      line-height: 28px;
+    }
+  }
+}
+
+.nodeflux {
+  font-family: 'arciformregular', sans-serif;
+  font-size: convert-rem(28px);
+  text-align: center;
+
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+}

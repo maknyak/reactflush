@@ -1,0 +1,251 @@
+.carousel-img {
+  position: relative;
+
+  .carousel-img-child {
+    position: absolute;
+    right: -10px;
+    max-width: 110px;
+    top: -35px;
+  }
+}
+
+.carousel-desc {
+  color: #e0c8ff;
+  padding-top: 10px;
+
+  .carousel-desc-title {
+    text-shadow: 0 0 10px #FFFFFF, 2px 2px 2px rgba(206,89,55,0);
+    font-weight: 600;
+    font-size: convert-rem(26px);
+    margin-bottom: 40px;
+    position: relative;
+
+    &::after{
+      content: '';
+      position: absolute;
+      display: inline-block;
+      bottom: -20px;
+      left: 0;
+      width: 80px;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #e0c8ff;
+    }
+  }
+}
+
+.carousel-list {
+  padding: 0;
+  list-style: none;
+  padding: 10px 0;
+  position: relative;
+  margin-top: 10px;
+  height: 90%;
+  display: none;
+
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 1px;
+    background-color: #e0c8ff;
+    right: 4px;
+    top: 0;
+    position: absolute;
+    opacity: 0.5;
+  }
+
+  .carousel-list-item {
+    z-index: 1000;
+    text-align: right;
+    padding: 20px 30px;
+    position: relative;
+    cursor: pointer;
+    opacity: 0.5;
+
+    &.active {
+      font-weight: 600;
+      opacity: 1;
+    }
+
+    &::after{
+      content: '';
+      right: -5px;
+      top: 22px;
+      position: absolute;
+      height: 20px;
+      width: 20px;
+      background: url('/images/spot.svg') no-repeat center top;
+      background-size: cover;
+      z-index: 1;
+      border-radius: 50%;
+    }
+  }
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 9.6px;
+  box-shadow: 0 7px 19px 2px rgba(25, 3, 57, 0.9);
+  background-image: linear-gradient(to bottom, rgba(68, 19, 124, 0.9), rgba(39, 10, 82, 0.9));
+
+  &.card-scale-sm {
+    @include media-breakpoint-up(md) {
+      transform: scale(0.9);
+    }
+  }
+
+  .card-body  {
+    padding: 25px 30px;
+    line-height: convert-rem(28px);
+
+    .card-devider {
+      background-color: #c493ff;
+      height: 2px;
+      margin: 10px 0;
+      width: 130px;
+      display: inline-block;
+    }
+    
+
+    .card-img {
+      position: relative;
+
+      @include media-breakpoint-up(sm) {
+        left: -100px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+
+        @include media-breakpoint-up(sm) {
+          width: 370px;
+        }
+
+        @include media-breakpoint-up(md) {
+          width: 430px;
+        }
+      }
+    }
+  }
+}
+
+.zindex-1 {
+  z-index: 1;
+}
+    
+.carousel-img {
+  z-index: 1;
+
+  &.carousel-bg {
+    display: inline-block;
+    border-radius: 9px;
+    box-shadow: 0 7px 19px 2px #1903397f;
+    background-image: linear-gradient(to bottom, #44137c, #270a52);
+    padding: 20px;
+  }
+}
+
+.carousel-content {
+  position: relative;
+  right: 0;
+  
+  @include media-breakpoint-up(md) {
+    right: 60px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    right: 38px;
+  }
+}
+
+
+#do {
+  position: relative;
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url('/images/brain-wave.svg') no-repeat center left;
+    background-size: contain;
+    position: absolute;
+    top: 100px;
+    left: 0;
+  }
+}
+
+#solution {
+  position: relative;
+  width: 100%;
+
+  &::before {
+    content: '';
+    width: 100vh;
+    height: 100%;
+    background: url('/images/wave-copy.svg') no-repeat center right;
+    position: absolute;
+    right: 0;
+  }
+}
+
+#product {
+  position: relative;
+
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url('/images/illustration-face.svg') no-repeat center right;
+    position: absolute;
+  }
+}
+
+#casestudy {
+  position: relative;
+
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url('/images/bg-wave-casestudy.svg') no-repeat top right;
+    position: absolute;
+  }
+
+  &::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url('/images/bg-wave-casestudy.svg') no-repeat bottom left;
+    position: absolute;
+    bottom: -200px;
+  }
+}
+
+#patner {
+  position: relative;
+
+
+  &::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: url('/images/bg.svg') no-repeat top left;
+    position: absolute;
+  }
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.bg-info-linier {
+  background: linear-gradient(91deg, #7242d9, #8b0acd);
+}
